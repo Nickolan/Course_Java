@@ -2,11 +2,9 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        java.util.Date dato = new java.util.Date();
+        System.out.println("Hola Mundo " + dato);
 
-
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
     }
+
 }
