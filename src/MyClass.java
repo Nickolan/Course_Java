@@ -9,6 +9,3 @@ public class MyClass {
         System.out.println("Valor $_3: " + $_3);
     }
 }
-class MiClase{
-       
-}

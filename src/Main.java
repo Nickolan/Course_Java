@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         java.util.Date dato = new java.util.Date();
         System.out.println("Hola Mundo " + dato);
-
+        var contact = "Variable VAR = ";
+        System.out.println(contact + "contacto");
     }
 
 }
