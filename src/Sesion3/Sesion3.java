@@ -5,9 +5,9 @@ public class Sesion3 {
         //1. Operadores Unitarios
             //Incremento/Decremento post pre
             int a = 10;
-            int b = -10;
+           // int b = -10;
             a++; // 11
-            b++; // -9
+            //b++; // -9
             --a; // a--;
 
             //Bitwise complement (~)
@@ -43,9 +43,18 @@ public class Sesion3 {
             Object obj = "hello";
             boolean isString = (obj instanceof String);
             boolean isNumber = (obj instanceof Number);
-            System.out.println(isString);
-            System.out.println(isNumber);
 
-        //
+        //EXPRESSIONS&STATEMENTS
+        int a2 = 10;
+        int b3 = 20;
+
+        int d3 = (a2 = a2 + b3);
+
+        int d4 = 0;
+        int int3 = ++d4;
+
+
+        long result = 170 / 1000000000;
+        System.out.println(result);
     }
 }
