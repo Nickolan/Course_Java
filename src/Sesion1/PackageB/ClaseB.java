@@ -1,5 +1,5 @@
-package PackageB;
-import PackageA.ClaseA;
+package Sesion1.PackageB;
+import Sesion1.PackageA.ClaseA;
 
 public class ClaseB {
     public static void main(String[] args){

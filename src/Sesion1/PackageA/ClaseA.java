@@ -1,4 +1,4 @@
-package PackageA;
+package Sesion1.PackageA;
 
 public class ClaseA {
     public String test = "Prueba A";
