@@ -26,7 +26,7 @@ abstract class Vehiculo {
     }
 }
 
-class Auto extends Vehiculo{
+ class Auto extends Vehiculo{
     public String getTipo(){
         return "Auto";
     }
