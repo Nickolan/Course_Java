@@ -2,10 +2,12 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        java.util.Date dato = new java.util.Date();
-        System.out.println("Hola Mundo " + dato);
-        var contact = "Variable VAR = ";
-        System.out.println(contact + "contacto");
+        int i =0, j=10;
+        while(i<=j){
+            i++;    //1 - 2 - 3 - 4 - 5 - 6
+            j--;    //9 - 8 - 7 - 6 - 5 - 4
+        }
+        System.out.println(i+" "+j);
     }
 
 }
